@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             Hero hero = new Hero();
             hero.setPhoto(dataPhoto.getResourceId(i, -1));
             hero.setName(dataName[i]);
-            hero.setDescription(dataDescription[1]);
+            hero.setDescription(dataDescription[i]);
             heroes.add(hero);
         }
         adapter.setHeroes(heroes);

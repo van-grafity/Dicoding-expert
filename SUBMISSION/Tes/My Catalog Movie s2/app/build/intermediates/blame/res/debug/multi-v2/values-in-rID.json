@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ivanl\\OneDrive\\Documents\\AndoidProject\\Dicoding-expert\\SUBMISSION\\Tes\\My Catalog Movie s2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in-rID\\values-in-rID.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ivanl\\OneDrive\\Documents\\AndoidProject\\Dicoding-expert\\SUBMISSION\\Tes\\My Catalog Movie s2\\app\\src\\main\\res\\values-in-rID\\strings.xml",
+                    "from": {
+                        "startLines": "1,2,12,5,9,11,7,10,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,72,494,175,295,419,231,356,126",
+                        "endColumns": "55,52,65,54,60,74,62,62,48",
+                        "endOffsets": "67,120,555,225,351,489,289,414,170"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,164,230,285,346,421,484,547",
+                        "endColumns": "55,52,65,54,60,74,62,62,48",
+                        "endOffsets": "106,159,225,280,341,416,479,542,591"
+                    }
+                }
+            ]
+        }
+    ]
+}

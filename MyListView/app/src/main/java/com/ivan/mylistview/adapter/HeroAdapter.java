@@ -20,6 +20,7 @@ public class HeroAdapter extends BaseAdapter {
     public void setHeroes(ArrayList<Hero> heroes) {
         this.heroes = heroes;
     }
+
     public HeroAdapter(Context context) {
         this.context = context;
         heroes = new ArrayList<>();
@@ -42,12 +43,12 @@ public class HeroAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        if (convertView == null){
+        if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.item_hero, parent, false);
         }
 
         ViewHolder viewHolder = new ViewHolder(convertView);
-        Hero hero = (Hero)getItem(position);
+        Hero hero = (Hero) getItem(position);
         viewHolder.bind(hero);
         return convertView;
     }
@@ -56,11 +57,13 @@ public class HeroAdapter extends BaseAdapter {
         private TextView txtName;
         private TextView txtDescription;
         private ImageView imgPhoto;
+
         ViewHolder(View view) {
             txtName = view.findViewById(R.id.txt_name);
             txtDescription = view.findViewById(R.id.txt_description);
             imgPhoto = view.findViewById(R.id.img_photo);
         }
+
         void bind(Hero hero) {
             txtName.setText(hero.getName());
             txtDescription.setText(hero.getDescription());
